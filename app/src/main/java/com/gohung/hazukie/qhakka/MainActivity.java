@@ -4,11 +4,14 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class LaunchActivity extends AppCompatActivity {
+import com.qmuiteam.qmui.util.QMUIStatusBarHelper;
+
+public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_launch);
+        setContentView(R.layout.activity_main);
+        //QMUIStatusBarHelper.setStatusBarLightMode(this);
     }
 }

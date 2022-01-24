@@ -7,8 +7,12 @@
         <entry key="..\:/Users/18648/AndroidStudioProjects/Qhakka/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
         <entry key="..\:/Users/18648/AndroidStudioProjects/Qhakka/app/src/main/res/drawable/universal_card.xml" value="0.17239583333333333" />
         <entry key="..\:/Users/18648/AndroidStudioProjects/Qhakka/app/src/main/res/layout/activity_main.xml" value="0.1" />
-        <entry key="..\:/Users/18648/AndroidStudioProjects/Qhakka/app/src/main/res/layout/single_content_card.xml" value="0.24586776859504134" />
+        <entry key="..\:/Users/18648/AndroidStudioProjects/Qhakka/app/src/main/res/layout/second_hanz_card.xml" value="0.5" />
+        <entry key="..\:/Users/18648/AndroidStudioProjects/Qhakka/app/src/main/res/layout/second_hk_audio_card.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/18648/AndroidStudioProjects/Qhakka/app/src/main/res/layout/second_hk_card.xml" value="0.8333333333333334" />
+        <entry key="..\:/Users/18648/AndroidStudioProjects/Qhakka/app/src/main/res/layout/single_content_card.xml" value="0.26959247648902823" />
         <entry key="..\:/Users/18648/AndroidStudioProjects/Qhakka/app/src/main/res/layout/single_hanz_card.xml" value="0.1" />
+        <entry key="..\:/Users/18648/AndroidStudioProjects/Qhakka/app/src/main/res/layout/ssecond_hanz_card.xml" value="0.1" />
         <entry key="..\:/Users/18648/AndroidStudioProjects/Qhakka/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
       </map>
     </option>

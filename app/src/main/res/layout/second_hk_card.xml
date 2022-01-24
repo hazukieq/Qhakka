@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/Card_theme">
+    <TextView
+        style="@style/CardContent_theme"
+        android:id="@+id/shk_card_text"
+        android:text="hhhhh"/>
+
+</LinearLayout>

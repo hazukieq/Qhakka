@@ -5,12 +5,11 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     app:cardCornerRadius="3sp"
     android:layout_margin="3sp">
-
-
     <LinearLayout
         style="@style/Card_theme"
         android:orientation="vertical">
         <TextView
+            android:id="@+id/title"
             style="@style/CardContent_theme"
             android:layout_marginBottom="10sp"
             android:text="hhhha" />

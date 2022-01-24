@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/Card_theme"
+    android:orientation="horizontal">
+    <TextView
+        style="@style/CardContent_theme"
+        android:layout_height="match_parent"
+        android:text="den1"
+        android:id="@+id/sehk_pin"/>
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/seplayhk"
+        android:background="@drawable/ic_action_playhk"/>
+
+</LinearLayout>

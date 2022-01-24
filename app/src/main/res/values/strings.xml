@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Qhakka</string>
+    <string name="all_vu">暂无</string>
+    <string name="cmn_head">普通话读音：</string>
+    <string name="bh_head">总笔画：</string>
+    <string name="hk_head">客家话读音：</string>
+    <string name="va_head">异形体：</string>
+    <string name="sw_head">说文解字解析</string>
+    <string name="kx_head">康熙字典解释</string>
+    <string name="hd_head">汉语大字典解释</string>
 </resources>

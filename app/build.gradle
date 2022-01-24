@@ -28,7 +28,13 @@ android {
     sourceSets {
         main {
             java {
-                srcDirs 'src\\main\\java', 'src\\main\\java\\database'
+                srcDirs 'src\\main\\java', 'src\\main\\java\\database', 'src\\main\\java\\Binders', 'src\\main\\java\\Utils', 'src\\main\\java\\binderr', 'src\\main\\java\\Data_model'
+            }
+            assets {
+                srcDirs 'src\\main\\assets'
+            }
+            resources {
+                srcDirs 'src\\main\\resources', 'src\\main\\java\\com\\gohung\\hazukie\\qhakka\\binders'
             }
         }
     }
@@ -41,10 +47,10 @@ dependencies {
 
     //custom implementation
     implementation "androidx.room:room-runtime:2.4.1"
+    implementation 'androidx.room:room-common:2.4.1'
     annotationProcessor "androidx.room:room-compiler:2.4.1"
     implementation 'com.qmuiteam:qmui:2.0.0-alpha10'
     implementation 'com.drakeet.multitype:multitype:4.3.0'
-    implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
 
     //test
     testImplementation 'junit:junit:4.+'

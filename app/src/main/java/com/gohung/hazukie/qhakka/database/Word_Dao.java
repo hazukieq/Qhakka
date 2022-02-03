@@ -1,5 +1,6 @@
 package com.gohung.hazukie.qhakka.database;
 
+import androidx.lifecycle.LiveData;
 import androidx.room.Dao;
 import androidx.room.Query;
 import androidx.room.Update;
@@ -16,5 +17,7 @@ public interface Word_Dao {
 
     @Query("SELECT * FROM word WHERE hz=:hz")
     Word getSingleWord(String hz);
+    @Query("SELECT * FROM word")
+    LiveData<List<Word>> getAllWordList();
 
 }

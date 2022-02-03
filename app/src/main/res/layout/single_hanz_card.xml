@@ -2,7 +2,10 @@
 <androidx.cardview.widget.CardView android:layout_width="match_parent"
     android:layout_height="wrap_content"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_margin="3sp"
+    android:layout_marginBottom="16dp"
+    android:layout_marginLeft="18dp"
+    android:layout_marginRight="18dp"
+    android:layout_marginTop="18dp"
     app:cardElevation="2sp"
     app:cardCornerRadius="5dp"
     xmlns:android="http://schemas.android.com/apk/res/android">
@@ -23,7 +26,7 @@
                 android:orientation="horizontal">
                 <TextView
                     android:id="@+id/hz"
-                    android:textSize="45.0sp"
+                    android:textSize="40sp"
                     android:gravity="center"
                     android:layout_gravity="center"
                     android:lineSpacingExtra="6.0dip"
@@ -45,7 +48,8 @@
                     android:layout_height="0dp"
                     android:layout_weight="1"
                     android:paddingLeft="2.0dip"
-                    android:paddingBottom="7.0sp"
+                    android:paddingTop="4sp"
+                    android:paddingBottom="3sp"
                     android:lineSpacingExtra="6dp"
                     android:textColor="?attr/qmui_config_color_gray_1"
                     android:textSize="14sp"/>

@@ -541,4 +541,53 @@ public class ConvertToUtils {
             for (String i : alldata) strb.append(i + " ");
             return strb;
         }
+    public String returnSingleTones_PY(String wantConvertStr) {
+        StringBuffer strb=new StringBuffer();
+        ArrayList<String> alldata=new ArrayList<>();
+        String nw=null;
+        String f=null;
+        String[] h=new String[]{""};
+        if(wantConvertStr==null){
+
+        }
+        else {
+            h = wantConvertStr.split(",");
+            for (int i = 0; i < h.length; i++) {
+                String Use_f = h[i];
+                if (Use_f.startsWith("|")) {
+                    f = Use_f.replace("|", "");
+                } else {
+                    f = Use_f;
+                }
+                for (int sh = 0; sh < Double_tones_Al.length; sh++) {
+                    if (f.endsWith(Double_tones_Al[sh])) {
+                        nw = f.replace(Double_tones_Al[sh], Double_tones[sh]);
+                        f = "";
+                        continue;
+                    }
+                }
+                if (f.equals("")) {
+                    alldata.add(nw);
+                } else if (f.endsWith("nx") | f.endsWith("nq") | f.endsWith("nh") | f.endsWith("ns") |f.endsWith("n")| f.endsWith("ngx") | f.endsWith("ngq") | f.endsWith("ngh") | f.endsWith("ngs") |f.endsWith("ng")| f.endsWith("mx") | f.endsWith("mq") | f.endsWith("mh") | f.endsWith("ms")) {
+                    for (int y = 0; y < Ang_Tones_Al.length; y++) {
+                        if (f.endsWith(Ang_Tones_Al[y])) {
+                            String w = f.replace(Ang_Tones_Al[y], Ang_Tones[y]);
+                            f = w;
+                        }
+                    }
+                    alldata.add(f);
+                } else {
+                    for (int j = 0; j < Dan_tones_Al.length; j++) {
+                        if (f.endsWith(Dan_tones_Al[j])) {
+                            String jk = f.replace(Dan_tones_Al[j], Dan_tones[j]);
+                            f = jk;
+                        }
+                    }
+                    alldata.add(f);
+                }
+            }
+        }
+        for (String i : alldata) strb.append(i + " ");
+        return ""+strb;
+    }
 }

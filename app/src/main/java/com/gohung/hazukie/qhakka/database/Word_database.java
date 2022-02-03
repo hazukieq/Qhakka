@@ -11,9 +11,9 @@ public abstract class Word_database extends RoomDatabase {
     private static final String DATABASE_NAME="qhk.db";
     private static Word_database databaseInstance;
 
-    public static synchronized Word_database getDatabaseInstance(Context context){
+    public static synchronized Word_database getInstance(Context context){
         if (databaseInstance == null) {
-            databaseInstance= Room.databaseBuilder(context,Word_database.class,DATABASE_NAME)
+            databaseInstance= Room.databaseBuilder(context.getApplicationContext(),Word_database.class,DATABASE_NAME)
                     .createFromAsset("database/qhk.db")
                     .build();
         }

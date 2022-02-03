@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.qmuiteam.qmui.layout.QMUILinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".main_Fragment">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+                android:orientation="vertical"
+            android:background="@color/qmui_config_color_white"
+                android:id="@+id/linaer">
+
+                <com.qmuiteam.qmui.layout.QMUILinearLayout
+                    android:layout_marginTop="2dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <scut.carson_ho.diy_view.SuperEditText
+                            android:id="@+id/frag_main_search"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="8"
+
+                            app:ic_left_click="@drawable/ic_action_profile"
+                            app:ic_left_unclick="@drawable/ic_action_profile"
+                            app:left_x="0"
+                            app:left_y="0"
+                            app:left_width="60"
+                            app:left_height="60"
+
+                            app:ic_delete="@drawable/ic_action_delete"
+                            app:delete_x="0"
+                            app:delete_y="0"
+                            app:delete_width="80"
+                            app:delete_height="80"
+                             android:singleLine="true"
+
+                            app:lineColor_click="@color/qmui_config_color_blue"
+                            app:lineColor_unclick="@color/qmui_config_color_gray_2"
+                            app:linePosition="1"
+                            app:cursor="@drawable/cursor"
+                            android:imeOptions="actionDone"/>
+                        <com.qmuiteam.qmui.widget.roundwidget.QMUIRoundButton
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginTop="2dp"
+                            android:clickable="true"
+                            android:padding="10dp"
+                            android:text="@string/frag_main_search"
+                            android:textColor="@color/s_app_color_blue_to_red"
+                            app:qmui_backgroundColor="@color/s_app_color_blue_3"
+                            app:qmui_borderColor="@color/s_app_color_blue_to_red"
+                            app:qmui_borderWidth="1px"
+                            app:qmui_skin_background="?attr/app_skin_btn_test_bg"
+                            app:qmui_skin_border="?attr/app_skin_btn_test_border"
+                            app:qmui_skin_text_color="?attr/app_skin_btn_test_border"/>
+                </com.qmuiteam.qmui.layout.QMUILinearLayout>
+        <LinearLayout
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/qmui_config_color_white">
+                <TextView android:paddingLeft="5.0dip"
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:text="@string/fragment_siujap_search_way"
+                    android:textSize="18sp"
+                    android:textColor="@color/qmui_config_color_gray_2"
+                    android:layout_weight="3.0" />
+                <Spinner android:id="@+id/actionDown"
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="7.0"
+                    android:spinnerMode="dropdown"
+                    android:overlapAnchor="false" />
+        </LinearLayout>
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/frag_main_recy"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"/>
+        </LinearLayout>
+</com.qmuiteam.qmui.layout.QMUILinearLayout>

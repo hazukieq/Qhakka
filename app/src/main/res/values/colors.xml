@@ -52,6 +52,12 @@
     <color name="light_red">#fff2cdcc</color>
     <color name="light_yelllow">#fffff8dc</color>
     <color name="blue_red">#fff4efef</color>
+    <color name="str_purple">#bbc4d6</color>
+    <color name="str_deep_purple">#7285aa</color>
+    <color name="light_white">#ededed</color>
+    <color name="text_red">#cdf44336</color>
+    <color name="light_pink">#ca948c</color>
+
 
     <color name="about_page_background">#f1f1f1</color>
     <color name="about_page_category_text_color">#757575</color>

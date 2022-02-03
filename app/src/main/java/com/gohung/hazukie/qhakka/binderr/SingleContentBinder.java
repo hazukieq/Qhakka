@@ -1,5 +1,15 @@
 package com.gohung.hazukie.qhakka.binderr;
 
+import android.graphics.Color;
+import android.text.Html;
+import android.text.Spannable;
+import android.text.SpannableString;
+import android.text.SpannableStringBuilder;
+import android.text.Spanned;
+import android.text.style.AbsoluteSizeSpan;
+import android.text.style.ForegroundColorSpan;
+import android.text.style.RelativeSizeSpan;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -11,8 +21,15 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.drakeet.multitype.ItemViewBinder;
 import com.gohung.hazukie.qhakka.Data_model.single_content;
 import com.gohung.hazukie.qhakka.R;
+import com.gohung.hazukie.qhakka.Utils.ConvertToUtils;
+import com.google.android.material.shape.RelativeCornerSize;
 
 import org.w3c.dom.Text;
+
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
+import kotlin.text.Regex;
 
 public class SingleContentBinder extends ItemViewBinder<single_content,SingleContentBinder.ViewHolder> {
 
@@ -25,8 +42,25 @@ public class SingleContentBinder extends ItemViewBinder<single_content,SingleCon
 
     @Override
     public void onBindViewHolder(@NonNull ViewHolder viewHolder, single_content single_content) {
-        viewHolder.title.setText(single_content.getTitle());
-        viewHolder.content.setText(single_content.getContent());
+        String title= "<font color=\"#7285aa\"><big>"+single_content.getTitle()+ "</big></font>";
+        viewHolder.title.setText(Html.fromHtml(title));
+        String mCon=single_content.getContent();
+        ConvertToUtils utis=new ConvertToUtils();
+        mCon=mCon.replaceAll("(\\d*)(\\.)(\\d*)","\n第$1页第$3字");
+        Pattern p=Pattern.compile("\\`.*\\`");
+
+        Matcher matcher=p.matcher(mCon);
+        String copy="";
+        while(matcher.find()){
+            String willconvert= "<font color=\"#7285aa\"><small>"+matcher.group()+"</small></font>";
+            String fe=matcher.group();
+            mCon=mCon.replace(fe,willconvert);
+
+
+        }
+        copy=mCon.replace("`","");
+
+        viewHolder.content.setText(Html.fromHtml(copy.replace("\n","<br/>")));
     }
 
     public class ViewHolder extends RecyclerView.ViewHolder{

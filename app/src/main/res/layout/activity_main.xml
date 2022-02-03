@@ -5,6 +5,7 @@
     tools:context=".MainActivity"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/qmui_config_color_10_white"
     android:orientation="vertical">
     <com.qmuiteam.qmui.widget.QMUITopBarLayout
         android:layout_width="match_parent"

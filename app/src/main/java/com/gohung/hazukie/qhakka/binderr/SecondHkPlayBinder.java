@@ -12,6 +12,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.drakeet.multitype.ItemViewBinder;
 import com.gohung.hazukie.qhakka.Data_model.PlayHk;
 import com.gohung.hazukie.qhakka.R;
+import com.gohung.hazukie.qhakka.Utils.ConvertTextUtils;
 
 public class SecondHkPlayBinder extends ItemViewBinder<PlayHk,SecondHkPlayBinder.ViewHolder> {
 

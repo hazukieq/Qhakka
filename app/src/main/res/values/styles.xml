@@ -45,7 +45,6 @@
     </style>
 
     <style name="QDTopBar" parent="QMUI.TopBar">
-        <item name="android:fitsSystemWindows">true</item>
         <item name="qmui_topbar_height">48dp</item>
         <item name="qmui_topbar_image_btn_height">48dp</item>
         <item name="qmui_topbar_title_bold">true</item>

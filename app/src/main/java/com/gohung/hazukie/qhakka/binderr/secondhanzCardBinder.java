@@ -1,14 +1,18 @@
 package com.gohung.hazukie.qhakka.binderr;
 
 import android.content.Context;
+import android.text.Html;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.bumptech.glide.Glide;
 import com.drakeet.multitype.ItemViewBinder;
 import com.gohung.hazukie.qhakka.R;
 import com.gohung.hazukie.qhakka.Utils.ConvertTextUtils;
@@ -34,15 +38,23 @@ public class secondhanzCardBinder extends ItemViewBinder<Word,secondhanzCardBind
     public void onBindViewHolder(@NonNull ViewHolder viewHolder, Word word) {
         ConvertTextUtils convertTextUtils=new ConvertTextUtils(context);
         viewHolder.shz.setText(word.getHz());
-        viewHolder.sbh.setText(convertTextUtils.returnText(word,"bh"));
-        viewHolder.scmnp.setText(convertTextUtils.returnText(word,"cmn"));
-        viewHolder.shkp.setText(convertTextUtils.returnText(word,"hk"));
-        viewHolder.sva.setText(convertTextUtils.returnText(word,"va"));
+        String bh_head=convertTextUtils.returnSecondText(word,"bh");
+        Log.i( "onBindViewHolder: ","-->"+bh_head);
+        viewHolder.sbh.setText(Html.fromHtml(bh_head.replace("\n","<br/>")));
+        String cmn_head=convertTextUtils.returnSecondText(word,"cmn");
+        viewHolder.scmnp.setText(Html.fromHtml(cmn_head.replace("\n","<br/>")));
+        String hk_head=convertTextUtils.returnSecondText(word,"hk");
+        viewHolder.shkp.setText(Html.fromHtml(hk_head.replace("\n","<br/>")));
+        String va_head=convertTextUtils.returnSecondText(word,"va");
+        viewHolder.sva.setText(Html.fromHtml(va_head.replace("\n","<br/>")));
+
+        Glide.with(viewHolder.itemView.getContext()).load(R.drawable.mi).into(viewHolder.simg);
 
     }
 
     public class ViewHolder extends RecyclerView.ViewHolder{
         private TextView shz,sbh,shkp,scmnp,sva;
+        private ImageView simg;
 
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
@@ -51,6 +63,7 @@ public class secondhanzCardBinder extends ItemViewBinder<Word,secondhanzCardBind
             shkp=(TextView) itemView.findViewById(R.id.shk_p);
             scmnp=(TextView) itemView.findViewById(R.id.scmn_p);
             sva=(TextView) itemView.findViewById(R.id.sva);
+            simg=(ImageView) itemView.findViewById(R.id.simg);
         }
     }
 }

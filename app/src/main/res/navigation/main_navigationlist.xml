@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_navigationlist"
+    app:startDestination="@id/main_Fragment">
+
+    <fragment
+        android:id="@+id/main_Fragment"
+        android:name="com.gohung.hazukie.qhakka.main_Fragment"
+        android:label="fragment_main"
+        tools:layout="@layout/fragment_main" />
+    <fragment
+        android:id="@+id/help_Fragment"
+        android:name="com.gohung.hazukie.qhakka.help_Fragment"
+        android:label="fragment_help"
+        tools:layout="@layout/fragment_help" />
+    <fragment
+        android:id="@+id/word_Fragment"
+        android:name="com.gohung.hazukie.qhakka.word_Fragment"
+        android:label="fragment_word"
+        tools:layout="@layout/fragment_word" />
+
+
+</navigation>

@@ -1,11 +1,33 @@
 <resources>
     <string name="app_name">Qhakka</string>
     <string name="all_vu">暂无</string>
-    <string name="cmn_head">普通话读音：</string>
+    <string name="cmn_head">国语读音：</string>
+    <string name="cmn_sehead">国语：</string>
     <string name="bh_head">总笔画：</string>
-    <string name="hk_head">客家话读音：</string>
+    <string name="bh_sehead">总笔画：</string>
+    <string name="hk_head">客语读音：</string>
+    <string name="hk_sehead">客语：</string>
     <string name="va_head">异形体：</string>
+    <string name="va_sehead">异形体：</string>
+    <string name="hakka_head">高峰客家话读音</string>
     <string name="sw_head">说文解字解析</string>
     <string name="kx_head">康熙字典解释</string>
     <string name="hd_head">汉语大字典解释</string>
+
+    <string name="format_title"><font color="#7285aa" size="18">
+        %1$s
+    </font></string>
+    <string name="tests_string">在认真听取大家发言后，谌贻琴说，完全赞成李炳军省长所作的政府工作报告。报告通篇贯彻习近平新时代中国特色社会主义思想和习近平总书记视察贵州重要讲话精神，完全符合中央和省委关于今年工作的部署要求，完全符合贵州现阶段的发展实际，完全符合人民群众的愿望期盼，是一个旗帜鲜明、实事求是、鼓舞人心、催人奋进的好报告。过去的一年极不平凡、极不容易、极为难忘，全省上下共同努力，交出了一份凝聚人心的政治答卷、振奋人心的发展答卷、温暖人心的民生答卷、安定人心的平安答卷，实现了“十四五”良好开局。  谌贻琴充分肯定了铜仁过去一年取得的成绩。她指出，习近平总书记对贵州十分关心，去年春节前夕亲临贵州视察，为贵州开启全面建设社会主义现代化新征程指明了前进方向、提供了根本遵循。我们要站在衷心拥护“两个确立”、忠诚践行“两个维护”的政治高度，持续深入抓好习近平总书记视察贵州重要讲话精神的学习宣传贯彻落实，确保不断见到新的成效。习近平总书记对铜仁的发展特别是生态文明建设十分关心，多次作出重要指示。铜仁要进一步提高政治判断力、政治领悟力、政治执行力，把“国之大者”领悟到位，深入贯彻习近平生态文明思想，始终把习近平总书记的重要批示作为“第一政治要件”来办理，牢牢守好发展和生态两条底线，深入打好污染防治攻坚战，确保铜仁生态环境质量持续改善。  谌贻琴强调，今年我们党将召开二十大，我省也将召开第十三次党代会，要在统筹发展和安全上持续用力。铜仁要坚定不移以高质量发展统揽全局，完整、准确、全面贯彻新发展理念，围绕“四新”主攻“四化”，把新型工业化作为推动高质量发展的首要任务，着力扩大有效投资，推进大数据与实体经济深度融合，奋力在推动高质量发展上实现新突破。要强化底线思维，守土有责、守土有方、守土有效，下好先手棋、打好主动仗，有效应对疫情防控、政府债务、安全生产等领域风险隐患，确保社会大局安全稳定。要在保障和改善民生上持续用力，着力巩固拓展脱贫攻坚成果，抓好易地扶贫搬迁后续扶持，全力促进城乡居民增收，扎实解决“两拖欠”等问题，不断提高人民群众的获得感、幸福感、安全感。  谌贻琴强调，要在全面从严治党上持续用力，永葆自我革命精神，继续推进新时代党的建设新的伟大工程，始终坚持以正确用人导向引领干事创业导向，着力建设忠诚干净担当的高素质干部队伍。要坚决克服形式主义、官僚主义，把更多的精力放在高质量发展上、把更多心思放在为民服务上、把更多资金用在刀刃上，以优良的党风带政风促民风。要继续打好党风廉政建设和反腐败斗争攻坚战、持久战，加强年轻干部监督管理，一体推进不敢腐、不能腐、不想腐，持续巩固风清气正的良好政治生态。要不断巩固拓展党史学习教育成果，大力弘扬困牛山革命先烈的崇高精神，聚精会神、忠于职守，担当负责、勤勉工作，坚决完成好中央和省委赋予的职责任务，为贵州高质量发展作出铜仁贡献、展现铜仁担当。  省有关部门负责人参加审议。</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="main_nav_bottom_fisrt">首页</string>
+    <string name="main_nav_bottom_second">词汇</string>
+    <string name="main_nav_bottom_third">帮助</string>
+    <string name="mainAllmenu">菜单</string>
+    <string name="frag_main_search">查询</string>
+    <string name="fragment_siujap_search_way">查询方式：</string>
+    <string name="second_details">详情解释</string>
+    <string name="hkext_head">客家话解释</string>
+    <string name="second_explain">条例说明</string>
+    <string name="second_refresh">依山路去青萍色，\n\n旧海轻涯一叶舟</string>
 </resources>

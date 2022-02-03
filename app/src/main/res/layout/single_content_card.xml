@@ -3,20 +3,23 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    app:cardCornerRadius="3sp"
-    android:layout_margin="3sp">
+    android:layout_marginBottom="24dp"
+    android:layout_marginLeft="24dp"
+    android:layout_marginRight="24dp"
+    android:layout_marginTop="24dp"
+    app:cardCornerRadius="4sp">
     <LinearLayout
         style="@style/Card_theme"
         android:orientation="vertical">
         <TextView
             android:id="@+id/title"
             style="@style/CardContent_theme"
-            android:layout_marginBottom="10sp"
-            android:text="hhhha" />
+            android:layout_marginBottom="10sp" />
     <TextView
-        android:text="hhhhhhhhhhhhhhhhhhhhhhh"
+        android:text="@string/tests_string"
         style="@style/CardContent_theme"
-        android:id="@+id/content"/>
+        android:id="@+id/content"
+        android:textSize="16sp"/>
     </LinearLayout>
 
 

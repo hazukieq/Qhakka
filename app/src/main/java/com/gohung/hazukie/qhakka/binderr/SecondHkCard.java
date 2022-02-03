@@ -1,5 +1,6 @@
 package com.gohung.hazukie.qhakka.binderr;
 
+import android.text.Html;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -23,7 +24,11 @@ public class SecondHkCard extends ItemViewBinder<SecondHk,SecondHkCard.ViewHolde
 
     @Override
     public void onBindViewHolder(@NonNull ViewHolder viewHolder, SecondHk secondHk) {
-            viewHolder.content.setText(secondHk.getHkcard());
+
+        String str=secondHk.getHkcard();
+        String title= "<font color=\"#7285aa\"><big>"+str.charAt(0)+ "</big></font>";
+        str=str.replace(String.valueOf(str.charAt(0)),title);
+            viewHolder.content.setText(Html.fromHtml(str.replace("\n","<br/>")));
     }
 
     public class ViewHolder extends RecyclerView.ViewHolder{

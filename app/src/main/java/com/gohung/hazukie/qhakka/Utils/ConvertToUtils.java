@@ -84,7 +84,7 @@ public class ConvertToUtils {
                 "angx","angq","angh","angs","ang",
 
                 "inx","inq","inh","ins","in",
-                "imq","imq","imh","ims",
+                "imx","imq","imh","ims",
                 "ingx","ingq","ingh","ings","ing",
 
                 "unx","unq","unh","uns","un",
@@ -291,15 +291,15 @@ public class ConvertToUtils {
         public StringBuffer ConverToHkIPA(String receive_str,int Tonformat) {
             StringBuffer returnAll=new StringBuffer();
             String[] hktones=null;
-            //这里是控制音标调值显示的方法，1为折线显示，2为一二三四声调显示，3为调值显示
+            //这里是控制音标调值显示的方法，2为折线显示，1为一二三四声调显示，0为调值显示
             switch(Tonformat) {
-                case 1:
+                case 0:
                     hktones=hakka_tones_sinum;
                     break;
-                case 2:
+                case 1:
                     hktones=hakka_tones_num;
                     break;
-                case 3:
+                case 2:
                     hktones=hakka_tones;
                     break;
 
@@ -389,10 +389,11 @@ public class ConvertToUtils {
         public StringBuffer  ConvertToIPA(String Test_str,int Tonesformat){
             String[] ToneseFormat = null;
             switch(Tonesformat) {
-                case 1:
+                case 0:
+                    //num_tones为调值显示；sinum_tones为一二三四显示；tones为折线显示；
                     ToneseFormat=cmn_num_tones; break;
-                case 2:  ToneseFormat=cmn_sinum_tones;break;
-                case 3: ToneseFormat=cmn_tones;break;
+                case 1:  ToneseFormat=cmn_sinum_tones;break;
+                case 2: ToneseFormat=cmn_tones;break;
 
             }
             StringBuffer returnAll=new StringBuffer();

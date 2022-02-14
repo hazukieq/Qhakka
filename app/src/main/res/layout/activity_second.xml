@@ -1,61 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<com.qmuiteam.qmui.layout.QMUILinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SecondActivity">
-    <com.qmuiteam.qmui.widget.QMUIAppBarLayout
+    tools:context=".SecondActivity"
+    android:orientation="vertical">
+    <View
         android:layout_width="match_parent"
-        android:layout_height="256dp"
-        android:fitsSystemWindows="true">
+        android:layout_height="25dp"
+        android:background="@color/app_color_blue"/>
+    <com.qmuiteam.qmui.widget.QMUITopBarLayout
+        android:id="@+id/second_topbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
 
-        <com.qmuiteam.qmui.widget.QMUICollapsingTopBarLayout
-            android:id="@+id/collapsing_topbar_layout"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            app:layout_scrollFlags="scroll|exitUntilCollapsed"
-            app:qmui_collapsedTitleGravity="center"
-            app:qmui_contentScrim="?attr/app_primary_color"
-            app:qmui_expandedTitleGravity="center_horizontal|bottom"
-            app:qmui_expandedTitleMarginBottom="20dp"
-            app:qmui_statusBarScrim="?attr/app_primary_color"
-            android:minHeight="?attr/qmui_topbar_height">
-         <FrameLayout
-             android:layout_width="match_parent"
-             android:layout_height="match_parent"
-             app:qmui_layout_collapseMode="parallax"
-             app:qmui_layout_collapseParallaxMultiplier="0.7">
-             <ImageView
-                 android:id="@+id/img"
-                 android:layout_width="match_parent"
-                 android:layout_height="match_parent"
-                 android:fitsSystemWindows="false"
-                 android:scaleType="centerCrop"
-                 android:contentDescription="示例图片"/>
-            <com.qmuiteam.qmui.widget.QMUIVerticalTextView
-                android:layout_width="wrap_content"
-                android:layout_height="150dp"
-                android:lineSpacingExtra="6sp"
-                android:layout_gravity="right|bottom"
-                android:textSize="16sp"
-                android:textColor="@color/light_white"
-                android:layout_marginBottom="10sp"
-                android:layout_marginRight="10sp"
-                android:id="@+id/second_refresh"
-                android:text="@string/second_refresh"/>
-         </FrameLayout>
-
-            <com.qmuiteam.qmui.widget.QMUITopBar
-                android:id="@+id/topbar"
-                android:layout_width="match_parent"
-                android:layout_height="?attr/qmui_topbar_height"
-                android:fitsSystemWindows="true"
-                app:qmui_layout_collapseMode="pin"
-                android:background="@color/qmui_config_color_transparent"
-                app:qmui_bottomDividerHeight="0px"/>
-        </com.qmuiteam.qmui.widget.QMUICollapsingTopBarLayout>
-    </com.qmuiteam.qmui.widget.QMUIAppBarLayout>
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/second_recy"
         android:layout_width="match_parent"
@@ -63,4 +22,4 @@
         app:layout_behavior="@string/appbar_scrolling_view_behavior"
         app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager">
     </androidx.recyclerview.widget.RecyclerView>
-</androidx.coordinatorlayout.widget.CoordinatorLayout>
+</com.qmuiteam.qmui.layout.QMUILinearLayout>

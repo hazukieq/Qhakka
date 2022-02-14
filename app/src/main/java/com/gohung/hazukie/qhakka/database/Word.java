@@ -90,4 +90,7 @@ public class Word {
         return hk;
     }
 
+    public int getId() {
+        return id;
+    }
 }

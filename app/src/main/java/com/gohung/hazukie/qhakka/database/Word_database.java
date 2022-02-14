@@ -5,7 +5,7 @@ import androidx.room.Database;
 import androidx.room.Room;
 import androidx.room.RoomDatabase;
 
-@Database(entities = {Word.class},exportSchema = false,version = 1)
+@Database(entities = {Word.class,Lipoem.class},exportSchema = false,version = 1)
 public abstract class Word_database extends RoomDatabase {
 
     private static final String DATABASE_NAME="qhk.db";
@@ -20,5 +20,6 @@ public abstract class Word_database extends RoomDatabase {
         return databaseInstance;
     }
     public abstract Word_Dao word_dao();
+    public abstract Lipoem_Dao lipoem_dao();
 
 }

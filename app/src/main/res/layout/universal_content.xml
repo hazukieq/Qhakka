@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="24dp"
+    android:layout_marginTop="24dp"
+    android:clickable="true"
+    android:foreground="?attr/selectableItemBackground"
+    android:background="@color/white">
+    <LinearLayout
+        style="@style/Card_theme"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/universal_poem_title"
+            style="@style/CardContent_theme"
+            android:paddingTop="5sp"
+            android:layout_marginBottom="10sp" />
+
+        <TextView
+            android:id="@+id/universal_poem_content"
+            style="@style/CardContent_theme"
+            android:text="@string/tests_string"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

@@ -3,31 +3,86 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/18648/AndroidStudioProjects/Qhakka/app/src/main/res/drawable-anydpi/ic_action_delete.xml" value="0.1" />
+        <entry key="..\:/Users/18648/AndroidStudioProjects/Qhakka/app/src/main/res/drawable-anydpi/ic_action_help.xml" value="0.19739583333333333" />
         <entry key="..\:/Users/18648/AndroidStudioProjects/Qhakka/app/src/main/res/drawable-anydpi/ic_action_home.xml" value="0.1" />
+        <entry key="..\:/Users/18648/AndroidStudioProjects/Qhakka/app/src/main/res/drawable-anydpi/ic_action_menu.xml" value="0.19739583333333333" />
+        <entry key="..\:/Users/18648/AndroidStudioProjects/Qhakka/app/src/main/res/drawable-anydpi/ic_action_playHK_selected.xml" value="0.19739583333333333" />
+        <entry key="..\:/Users/18648/AndroidStudioProjects/Qhakka/app/src/main/res/drawable-anydpi/ic_action_playhk.xml" value="0.19739583333333333" />
+        <entry key="..\:/Users/18648/AndroidStudioProjects/Qhakka/app/src/main/res/drawable-anydpi/ic_action_profile.xml" value="0.19739583333333333" />
+        <entry key="..\:/Users/18648/AndroidStudioProjects/Qhakka/app/src/main/res/drawable-anydpi/ic_action_word.xml" value="0.19739583333333333" />
+        <entry key="..\:/Users/18648/AndroidStudioProjects/Qhakka/app/src/main/res/drawable-anydpi/icon_app_close.xml" value="0.1" />
+        <entry key="..\:/Users/18648/AndroidStudioProjects/Qhakka/app/src/main/res/drawable-anydpi/icon_app_search.xml" value="0.1" />
         <entry key="..\:/Users/18648/AndroidStudioProjects/Qhakka/app/src/main/res/drawable-anydpi/mi_space.xml" value="0.1" />
+        <entry key="..\:/Users/18648/AndroidStudioProjects/Qhakka/app/src/main/res/drawable-anydpi/second_explain_icon.xml" value="0.19739583333333333" />
         <entry key="..\:/Users/18648/AndroidStudioProjects/Qhakka/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.17239583333333333" />
+        <entry key="..\:/Users/18648/AndroidStudioProjects/Qhakka/app/src/main/res/drawable-xxhdpi/textview_bakground_change.xml" value="0.1" />
+        <entry key="..\:/Users/18648/AndroidStudioProjects/Qhakka/app/src/main/res/drawable-xxhdpi/title_background_change.xml" value="0.1" />
+        <entry key="..\:/Users/18648/AndroidStudioProjects/Qhakka/app/src/main/res/drawable/card_change.xml" value="0.19739583333333333" />
+        <entry key="..\:/Users/18648/AndroidStudioProjects/Qhakka/app/src/main/res/drawable/edit_shape.xml" value="0.1" />
+        <entry key="..\:/Users/18648/AndroidStudioProjects/Qhakka/app/src/main/res/drawable/edittext_cursor.xml" value="0.1" />
         <entry key="..\:/Users/18648/AndroidStudioProjects/Qhakka/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
         <entry key="..\:/Users/18648/AndroidStudioProjects/Qhakka/app/src/main/res/drawable/main_nav_a.xml" value="0.1" />
         <entry key="..\:/Users/18648/AndroidStudioProjects/Qhakka/app/src/main/res/drawable/main_nav_bottom_selector.xml" value="0.1" />
+        <entry key="..\:/Users/18648/AndroidStudioProjects/Qhakka/app/src/main/res/drawable/playhk_btn_change.xml" value="0.19739583333333333" />
+        <entry key="..\:/Users/18648/AndroidStudioProjects/Qhakka/app/src/main/res/drawable/text_card_radius.xml" value="0.1" />
+        <entry key="..\:/Users/18648/AndroidStudioProjects/Qhakka/app/src/main/res/drawable/textview_back.xml" value="0.1" />
+        <entry key="..\:/Users/18648/AndroidStudioProjects/Qhakka/app/src/main/res/drawable/textview_bakground_change.xml" value="0.1" />
+        <entry key="..\:/Users/18648/AndroidStudioProjects/Qhakka/app/src/main/res/drawable/title_background_change.xml" value="0.1" />
         <entry key="..\:/Users/18648/AndroidStudioProjects/Qhakka/app/src/main/res/drawable/universal_card.xml" value="0.17239583333333333" />
+        <entry key="..\:/Users/18648/AndroidStudioProjects/Qhakka/app/src/main/res/layout/activity_about.xml" value="0.1" />
+        <entry key="..\:/Users/18648/AndroidStudioProjects/Qhakka/app/src/main/res/layout/activity_launch.xml" value="0.1" />
         <entry key="..\:/Users/18648/AndroidStudioProjects/Qhakka/app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="..\:/Users/18648/AndroidStudioProjects/Qhakka/app/src/main/res/layout/activity_second.xml" value="0.14666666666666667" />
+        <entry key="..\:/Users/18648/AndroidStudioProjects/Qhakka/app/src/main/res/layout/activity_setting.xml" value="0.1" />
+        <entry key="..\:/Users/18648/AndroidStudioProjects/Qhakka/app/src/main/res/layout/activity_test.xml" value="0.18125" />
+        <entry key="..\:/Users/18648/AndroidStudioProjects/Qhakka/app/src/main/res/layout/activity_universal.xml" value="0.1" />
+        <entry key="..\:/Users/18648/AndroidStudioProjects/Qhakka/app/src/main/res/layout/activity_web_view.xml" value="0.18125" />
+        <entry key="..\:/Users/18648/AndroidStudioProjects/Qhakka/app/src/main/res/layout/banner_card.xml" value="0.1" />
+        <entry key="..\:/Users/18648/AndroidStudioProjects/Qhakka/app/src/main/res/layout/banner_image_title.xml" value="0.1" />
+        <entry key="..\:/Users/18648/AndroidStudioProjects/Qhakka/app/src/main/res/layout/bannerview.xml" value="0.1793478260869565" />
+        <entry key="..\:/Users/18648/AndroidStudioProjects/Qhakka/app/src/main/res/layout/frag_main.xml" value="0.1" />
+        <entry key="..\:/Users/18648/AndroidStudioProjects/Qhakka/app/src/main/res/layout/frag_word.xml" value="0.1" />
+        <entry key="..\:/Users/18648/AndroidStudioProjects/Qhakka/app/src/main/res/layout/frag_word_item_label.xml" value="0.1" />
+        <entry key="..\:/Users/18648/AndroidStudioProjects/Qhakka/app/src/main/res/layout/fragment_frag_settings_main.xml" value="0.1" />
         <entry key="..\:/Users/18648/AndroidStudioProjects/Qhakka/app/src/main/res/layout/fragment_help.xml" value="0.1" />
-        <entry key="..\:/Users/18648/AndroidStudioProjects/Qhakka/app/src/main/res/layout/fragment_main.xml" value="0.22" />
-        <entry key="..\:/Users/18648/AndroidStudioProjects/Qhakka/app/src/main/res/layout/fragment_word.xml" value="0.15353260869565216" />
+        <entry key="..\:/Users/18648/AndroidStudioProjects/Qhakka/app/src/main/res/layout/fragment_main.xml" value="0.17959770114942528" />
+        <entry key="..\:/Users/18648/AndroidStudioProjects/Qhakka/app/src/main/res/layout/fragment_main_all_frag_controller.xml" value="0.1" />
+        <entry key="..\:/Users/18648/AndroidStudioProjects/Qhakka/app/src/main/res/layout/fragment_main_culture_sub.xml" value="0.26635514018691586" />
+        <entry key="..\:/Users/18648/AndroidStudioProjects/Qhakka/app/src/main/res/layout/fragment_main_interesting_frag.xml" value="0.18125" />
+        <entry key="..\:/Users/18648/AndroidStudioProjects/Qhakka/app/src/main/res/layout/fragment_main_tools_frag.xml" value="0.18125" />
+        <entry key="..\:/Users/18648/AndroidStudioProjects/Qhakka/app/src/main/res/layout/fragment_setting_lang_sub.xml" value="0.4466666666666667" />
+        <entry key="..\:/Users/18648/AndroidStudioProjects/Qhakka/app/src/main/res/layout/fragment_word.xml" value="0.1" />
+        <entry key="..\:/Users/18648/AndroidStudioProjects/Qhakka/app/src/main/res/layout/fragment_word_subfrag.xml" value="0.18125" />
+        <entry key="..\:/Users/18648/AndroidStudioProjects/Qhakka/app/src/main/res/layout/lipoem_card.xml" value="0.1" />
+        <entry key="..\:/Users/18648/AndroidStudioProjects/Qhakka/app/src/main/res/layout/main_all.xml" value="0.1" />
         <entry key="..\:/Users/18648/AndroidStudioProjects/Qhakka/app/src/main/res/layout/main_navhost_fragement.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/18648/AndroidStudioProjects/Qhakka/app/src/main/res/layout/search_layout.xml" value="0.22" />
         <entry key="..\:/Users/18648/AndroidStudioProjects/Qhakka/app/src/main/res/layout/second_hanz_card.xml" value="0.46578947368421053" />
-        <entry key="..\:/Users/18648/AndroidStudioProjects/Qhakka/app/src/main/res/layout/second_hk_audio_card.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/18648/AndroidStudioProjects/Qhakka/app/src/main/res/layout/second_hk_audio_card.xml" value="0.6" />
         <entry key="..\:/Users/18648/AndroidStudioProjects/Qhakka/app/src/main/res/layout/second_hk_card.xml" value="0.6" />
-        <entry key="..\:/Users/18648/AndroidStudioProjects/Qhakka/app/src/main/res/layout/single_content_card.xml" value="0.26959247648902823" />
+        <entry key="..\:/Users/18648/AndroidStudioProjects/Qhakka/app/src/main/res/layout/simple_list_item.xml" value="0.1" />
+        <entry key="..\:/Users/18648/AndroidStudioProjects/Qhakka/app/src/main/res/layout/single_content_card.xml" value="0.16666666666666666" />
         <entry key="..\:/Users/18648/AndroidStudioProjects/Qhakka/app/src/main/res/layout/single_hanz_card.xml" value="0.1" />
+        <entry key="..\:/Users/18648/AndroidStudioProjects/Qhakka/app/src/main/res/layout/sinner_dropdown_item.xml" value="0.1" />
+        <entry key="..\:/Users/18648/AndroidStudioProjects/Qhakka/app/src/main/res/layout/spinner_item_selected.xml" value="0.1" />
         <entry key="..\:/Users/18648/AndroidStudioProjects/Qhakka/app/src/main/res/layout/ssecond_hanz_card.xml" value="0.1" />
+        <entry key="..\:/Users/18648/AndroidStudioProjects/Qhakka/app/src/main/res/layout/test_main_all.xml" value="0.1" />
+        <entry key="..\:/Users/18648/AndroidStudioProjects/Qhakka/app/src/main/res/layout/universal_content.xml" value="0.21350364963503649" />
+        <entry key="..\:/Users/18648/AndroidStudioProjects/Qhakka/app/src/main/res/layout/universal_lanmuk.xml" value="0.1" />
+        <entry key="..\:/Users/18648/AndroidStudioProjects/Qhakka/app/src/main/res/layout/universal_muluk.xml" value="0.1" />
+        <entry key="..\:/Users/18648/AndroidStudioProjects/Qhakka/app/src/main/res/layout/universal_viewpcontent.xml" value="0.1" />
         <entry key="..\:/Users/18648/AndroidStudioProjects/Qhakka/app/src/main/res/menu/drawable-anydpi/ic_action_help.xml" value="0.1" />
         <entry key="..\:/Users/18648/AndroidStudioProjects/Qhakka/app/src/main/res/menu/drawable-anydpi/ic_action_home.xml" value="0.1" />
+        <entry key="..\:/Users/18648/AndroidStudioProjects/Qhakka/app/src/main/res/menu/frag_main_menu.xml" value="0.1" />
         <entry key="..\:/Users/18648/AndroidStudioProjects/Qhakka/app/src/main/res/menu/main_all_nav_menu.xml" value="0.1" />
         <entry key="..\:/Users/18648/AndroidStudioProjects/Qhakka/app/src/main/res/menu/main_bottomnavi_menu.xml" value="0.22" />
         <entry key="..\:/Users/18648/AndroidStudioProjects/Qhakka/app/src/main/res/menu/main_nav_all.xml" value="0.1" />
+        <entry key="..\:/Users/18648/AndroidStudioProjects/Qhakka/app/src/main/res/mipmap-anydpi-v26/ic_app.xml" value="0.19739583333333333" />
         <entry key="..\:/Users/18648/AndroidStudioProjects/Qhakka/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
+        <entry key="..\:/Users/18648/AndroidStudioProjects/Qhakka/app/src/main/res/mipmap-anydpi-v26/ic_playhk.xml" value="0.19739583333333333" />
+        <entry key="..\:/Users/18648/AndroidStudioProjects/Qhakka/app/src/main/res/mipmap-anydpi-v26/ic_playhk_round.xml" value="0.19739583333333333" />
+        <entry key="..\:/Users/18648/AndroidStudioProjects/Qhakka/app/src/main/res/xml/root_preferences.xml" value="0.18125" />
       </map>
     </option>
   </component>

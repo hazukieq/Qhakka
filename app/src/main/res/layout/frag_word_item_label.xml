@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:textColor="@color/qmui_btn_blue_text"
+    android:clickable="true"
+    android:layout_marginLeft="3dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginTop="3dp"
+    android:layout_marginBottom="8dp"
+    android:paddingLeft="35dp"
+    android:gravity="center_vertical"
+    android:id="@+id/frag_word_item_label_txt"
+    android:background="@drawable/title_background_change">
+
+</TextView>

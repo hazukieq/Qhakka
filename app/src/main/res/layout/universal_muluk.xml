@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="10dp"
+    android:paddingTop="10dp"
+    android:textColor="@color/qmui_config_color_gray_2"
+    android:textSize="18sp"
+    android:paddingLeft="30dp"
+    android:layout_gravity="center_vertical|left"
+    android:background="@drawable/textview_back"
+    android:id="@+id/universal_muluk"
+    android:clickable="true">
+</TextView>

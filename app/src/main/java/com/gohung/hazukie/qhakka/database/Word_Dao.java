@@ -17,7 +17,14 @@ public interface Word_Dao {
 
     @Query("SELECT * FROM word WHERE hz=:hz")
     Word getSingleWord(String hz);
+
     @Query("SELECT * FROM word")
     LiveData<List<Word>> getAllWordList();
+
+    @Query("SELECT *FROM word WHERE hk_p=:hk_p")
+    List<Word> getWOrdsByHkp(String hk_p);
+
+    @Query("SELECT * FROM word WHERE cmn_p=:cmn_p")
+    List<Word> getWordsByCmnp(String cmn_p);
 
 }

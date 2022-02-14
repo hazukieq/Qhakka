@@ -11,13 +11,14 @@
         <TextView
             style="@style/CardContent_theme"
             android:layout_height="match_parent"
-            android:text="den1"
+            android:paddingTop="5dp"
+            android:text="den"
             android:id="@+id/sehk_pin"/>
         <ImageButton
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:id="@+id/seplayhk"
-            android:background="@drawable/ic_action_playhk"/>
+            android:background="@drawable/playhk_btn_change"/>
     </LinearLayout>
     <View
         android:layout_width="match_parent"

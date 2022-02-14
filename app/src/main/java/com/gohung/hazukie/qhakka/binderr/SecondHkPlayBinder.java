@@ -25,6 +25,7 @@ public class SecondHkPlayBinder extends ItemViewBinder<PlayHk,SecondHkPlayBinder
 
     @Override
     public void onBindViewHolder(@NonNull ViewHolder viewHolder, PlayHk playHk) {
+
         viewHolder.hkp.setText(playHk.getHkp());
         viewHolder.playhk.setTag(playHk.getAudioIndex());
 

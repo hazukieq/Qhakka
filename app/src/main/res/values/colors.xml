@@ -57,6 +57,8 @@
     <color name="light_white">#ededed</color>
     <color name="text_red">#cdf44336</color>
     <color name="light_pink">#ca948c</color>
+    <color name="blue_title">#7285aa</color>
+    <color name="qmui_blue">#1B88EE</color>
 
 
     <color name="about_page_background">#f1f1f1</color>

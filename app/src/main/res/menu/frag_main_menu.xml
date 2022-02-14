@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:id="@+id/hanz"
+    android:title="@string/frag_main_hanz"/>
+    <item
+        android:id="@+id/hakka"
+        android:title="@string/frag_main_hakka"/>
+    <item
+        android:id="@+id/common"
+        android:title="@string/frag_main_common"/>
+</menu>

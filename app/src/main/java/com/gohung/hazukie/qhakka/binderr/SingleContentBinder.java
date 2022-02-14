@@ -46,7 +46,7 @@ public class SingleContentBinder extends ItemViewBinder<single_content,SingleCon
         viewHolder.title.setText(Html.fromHtml(title));
         String mCon=single_content.getContent();
         ConvertToUtils utis=new ConvertToUtils();
-        mCon=mCon.replaceAll("(\\d*)(\\.)(\\d*)","\n第$1页第$3字");
+        mCon=mCon.replaceAll("(\\d*)(\\.)(\\d*)(\n)","\n第$1页第$3字$4");
         Pattern p=Pattern.compile("\\`.*\\`");
 
         Matcher matcher=p.matcher(mCon);

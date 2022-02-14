@@ -25,7 +25,7 @@
     <!-- Base application theme. -->
     <style name="AppTheme" parent="QMUI.Compat.NoActionBar">
         <!-- 配置Android提供的theme -->
-        <item name="android:statusBarColor">?attr/app_primary_color</item>
+        <item name="android:statusBarColor">@color/app_color_blue</item>
         <item name="android:fontFamily">@font/han</item>
         <item name="android:textAppearanceListItemSmall">@style/QDTextAppearanceListItemSmall</item>
         <item name="android:textAppearanceListItem">@style/QDtextAppearanceListItem</item>
@@ -82,7 +82,7 @@
 
     <style name="AppTheme.Launcher">
         <item name="android:windowFullscreen">true</item>
-        <item name="android:windowBackground">@mipmap/ic_launcher_round</item>
+        <item name="android:windowBackground">@drawable/welcom</item>
     </style>
 
     <!-- blue skin -->

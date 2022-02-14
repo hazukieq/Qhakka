@@ -7,7 +7,7 @@ android {
 
     defaultConfig {
         applicationId "com.gohung.hazukie.qhakka"
-        minSdk 24
+        minSdk 23
         targetSdk 32
         versionCode 1
         versionName "1.0"
@@ -28,7 +28,7 @@ android {
     sourceSets {
         main {
             java {
-                srcDirs 'src\\main\\java', 'src\\main\\java\\database', 'src\\main\\java\\Binders', 'src\\main\\java\\Utils', 'src\\main\\java\\binderr', 'src\\main\\java\\Data_model'
+                srcDirs 'src\\main\\java', 'src\\main\\java\\database', 'src\\main\\java\\Binders', 'src\\main\\java\\Utils', 'src\\main\\java\\binderr', 'src\\main\\java\\Data_model', 'src\\main\\java\\CustomView', 'src\\main\\java\\adapers', 'src\\main\\java\\viewmodels'
             }
             assets {
                 srcDirs 'src\\main\\assets'
@@ -46,17 +46,15 @@ dependencies {
     implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
 
     //custom implementation
-    implementation('com.carson_ho:Super_EditText:1.0.0')
+    implementation 'io.github.youth5201314:banner:2.2.2'
 
     implementation "androidx.navigation:navigation-fragment:2.3.5"
     implementation "androidx.navigation:navigation-ui:2.3.5"
 
-    implementation 'com.carson_ho:Super_EditText:1.0.0'
-
-    implementation 'com.githang:status-bar-compat:0.7'
 
     implementation 'com.github.bumptech.glide:glide:4.12.0'
     implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'androidx.preference:preference:1.1.1'
     annotationProcessor 'com.github.bumptech.glide:compiler:4.12.0'
 
     implementation 'androidx.room:room-runtime:2.4.1'

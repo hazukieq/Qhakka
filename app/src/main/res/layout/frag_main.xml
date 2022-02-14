@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.qmuiteam.qmui.widget.QMUIWindowInsetLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".word_Fragment">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="?attr/qmui_topbar_height"
+        android:background="@color/qmui_config_color_white"
+        android:orientation="vertical"
+        android:fitsSystemWindows="true"
+        app:qmui_skin_background="attr/app_skin_common_background">
+
+        <com.qmuiteam.qmui.widget.tab.QMUITabSegment
+            android:id="@+id/frag_main_tabs"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@color/qmui_config_color_white"
+            app:qmui_bottomDividerColor="?attr/qmui_skin_support_color_separator"
+            app:qmui_bottomDividerHeight="1px" />
+
+        <com.qmuiteam.qmui.widget.QMUIViewPager
+            android:id="@+id/frag_main_contentViewPager"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:fitsSystemWindows="true" />
+    </LinearLayout>
+    <com.qmuiteam.qmui.widget.QMUITopBarLayout
+        android:id="@+id/frag_main_topb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fitsSystemWindows="true" >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:padding="5dp"
+            android:background="@drawable/edit_shape"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginRight="55dp"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="0dp"
+                android:id="@+id/frag_main_imag"
+                android:paddingLeft="5dp"
+                android:layout_weight="1"
+                android:paddingTop="2dp"
+                android:paddingBottom="2dp"
+                android:layout_gravity="center_vertical"
+                android:layout_height="match_parent" />
+            <com.gohung.hazukie.qhakka.CustomView.ClearEditText
+                android:id="@+id/frag_main_clears"
+                android:layout_width="0dp"
+                android:layout_weight="9"
+                android:layout_height="match_parent"
+                android:paddingLeft="5dp"
+                android:paddingBottom="2dp"
+                android:paddingTop="2dp"
+                android:textSize="15sp"
+                android:textCursorDrawable="@drawable/edittext_cursor"
+                android:gravity="center_vertical|left"
+                android:singleLine="true"
+                android:background="@null"
+                android:hint="@string/frag_main_search_content"
+                android:imeOptions="actionDone"/>
+        </LinearLayout>
+    </com.qmuiteam.qmui.widget.QMUITopBarLayout>
+
+</com.qmuiteam.qmui.widget.QMUIWindowInsetLayout>

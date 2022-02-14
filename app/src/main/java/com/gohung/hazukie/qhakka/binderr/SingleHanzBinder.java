@@ -12,8 +12,15 @@ import com.drakeet.multitype.ItemViewBinder;
 import com.gohung.hazukie.qhakka.R;
 import com.gohung.hazukie.qhakka.Utils.ConvertTextUtils;
 import com.gohung.hazukie.qhakka.database.Word;
+import com.gohung.hazukie.qhakka.onItemClickListener;
 
 public class SingleHanzBinder extends ItemViewBinder<Word,SingleHanzBinder.ViewHolder> {
+    private com.gohung.hazukie.qhakka.onItemClickListener onItemClickListener;
+
+    public void setOnItemClickListener(com.gohung.hazukie.qhakka.onItemClickListener onItemClickListener) {
+        this.onItemClickListener = onItemClickListener;
+    }
+
     @NonNull
     @Override
     public ViewHolder onCreateViewHolder(@NonNull LayoutInflater layoutInflater, @NonNull ViewGroup viewGroup) {
@@ -29,6 +36,14 @@ public class SingleHanzBinder extends ItemViewBinder<Word,SingleHanzBinder.ViewH
         viewHolder.sihk.setText(convert.returnText(word,"hk"));
         viewHolder.siva.setText(convert.returnText(word,"va"));
         viewHolder.sicmn.setText(convert.returnText(word,"cmn"));
+        viewHolder.itemView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                if(onItemClickListener!=null) {
+                onItemClickListener.onItemClick(viewHolder.itemView,word.getHz());
+                }
+            }
+        });
 
     }
 

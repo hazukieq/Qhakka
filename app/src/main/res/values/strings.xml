@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Qhakka</string>
+    <string name="app_name">客音方典</string>
     <string name="all_vu">暂无</string>
     <string name="cmn_head">国语读音：</string>
     <string name="cmn_sehead">国语：</string>
@@ -25,9 +25,129 @@
     <string name="main_nav_bottom_third">帮助</string>
     <string name="mainAllmenu">菜单</string>
     <string name="frag_main_search">查询</string>
-    <string name="fragment_siujap_search_way">查询方式：</string>
+    <string name="fragment_siujap_search_way">查询条件：</string>
     <string name="second_details">详情解释</string>
     <string name="hkext_head">客家话解释</string>
     <string name="second_explain">条例说明</string>
     <string name="second_refresh">依山路去青萍色，\n\n旧海轻涯一叶舟</string>
+    <string name="second_explain_content">
+        一、说文解字、康熙字典、汉语大字典数据均来自osfans的开源数据库；\n\n
+        二、若无特殊说明，本界面中的<font color="#7285aa">「客语」均指代「广西高峰客家话」；「国语」均指代「中华人民共和国通用语」，即所谓的普通话；</font>\n\n
+        <big>三、关于「客家话解释」卡片</big>\n\n
+        ①<font color="#7285aa">注音</font>\t单个汉字的高峰客家话读音用<font color="#7285aa">「高峰客家话拼音方案」</font>标注声母、韵母及声调；「高峰客家话拼音方案」使用教程详情，请移步主界面的帮助界面查阅；\n\n
+        ②<font color="#7285aa">所释汉字读音</font>\t音系以广西高峰龙文客家话为代表；读音均采自当地客家话，同时以梅县客家话读音、台湾四县腔客家话读音为参照；当所释汉字为多音字时，则分列读音，加以解释；当所释汉字不是多音字但有多种读音时，则予以列出，并在其后注明「异读」；同时，为方便读者对照，本文中会适当列出一些「错误读音」、「模仿普通话的读音」，这些均称作「误读」「错读」；\n\n
+        ③<font color="#7285aa">释义</font>\t若所释汉字意思和通用语相同，则不再解释；如所释汉字有多义项，则用序号分别详加说明；\n\n
+        ④<font color="#7285aa">例句</font>\t例句主要取自生活中常用口语语句；例句之目的，方便读者理解掌握汉字的读音和用法、意思；\n\n
+        ⑤<font color="#7285aa">用字</font>\t客家方言和其他方言一样，有音无字的情况很普遍(包括一些虽有本字但因本字太冷僻而不用的情况)。人们采用同音、近音代替的办法，补出这种有音无字的字，以适应语言的需要。在「客家话解释」卡片中，一律称作「客家话行文用字」。\n\t凡「客家话行文用字」有多个用字的，均列出以供读者参考；如实在无字可用的，选用「同义而音不同的汉字，此用字称作「训读用字」；\n\n
+        ⑥<font color="#7285aa">参考网站</font> \n薪典(<a href="https://www.syndict.com">http://www.syndict.com</a>);\n汉典(<a href="https://www.zdic.net/">https://www.zdict.net/</a>);\n萌典(<a href="https://www.moedict.tw/">https://www.moedict.tw/</a>);\n\n
+        ⑦<font color="#7285aa">参考书籍</font>\n1.台湾四县腔海陆腔客家话辞典；\n2.梅县方言辞典；\n\n
+    </string>
+    <string name="mainAll_settings">设置</string>
+    <string name="mainAll_about">关于</string>
+    <string name="frag_main_hanz">汉字</string>
+    <string name="frag_main_hakka">客家话</string>
+    <string name="frag_main_common">普通话</string>
+    <string name="about_title">关于</string>
+    <string name="about_name">软件名称：客音方典</string>
+    <string name="about_author">作者：月色伊人</string>
+    <string name="open_address"><font color="#7285aa">项目地址</font></string>
+    <string name="about_contact">联系我</string>
+    <string name="about_allcited">本软件引用资源列表</string>
+    <string name="about_copyright">©2022 created by 月色伊人</string>
+    <string name="about_app_name">
+        <font color="#7285aa">当前版本：</font>1.0
+    </string>
+    <string name="frag_main_checkhanz">输入字符不是汉字，请核对查询条件！</string>
+    <string name="open_address_details">https://github.com/hazukieq/Qhakka</string>
+    <string name="about_contact_details">E-mail：hazukie@qq.com\nQQ：2593753494</string>
+    <string name="dialog_know">知道了</string>
+    <string name="about_cite_list">
+        <big>一、数据来源</big>\n《说文解字》、《康熙字典》、《汉语大字典》数据均来自于osfans开源软件中的数据库mcpdict.db；\n\n
+        <big>二、开源库</big>\n
+        1.QMUI_Android(UI框架);\n项目地址：<a href="https://qmuiteam.com/android">qmuiteam.com/android</a>\n\n
+        2.Glide(图片加载)\n项目地址：<a href="https://github.com/bumptech/glide">github.com/bumptech/glide
+</a>\n\n
+        3.SuperTextView(输入框UI)\n项目地址：<a href="https://github.com/chenBingX/SuperTextView/">github.com/chenBingX/SuperTextView/</a>\n\n
+        4.MultiType(recyclerview)\n项目地址：<a href="https://github.com/drakeet/MultiType">github.com/drakeet/MultiType
+</a>\n\n
+        5.JetPack中的Room、Navigation；
+    </string>
+    <string name="setting_main_lang">语言显示</string>
+    <string name="setting_main_title">设置</string>
+    <string name="setting_main_lang_cmn">普通话</string>
+    <string name="setting_main_lang_hakka">客家话</string>
+    <string name="setting_main_lang_ipaTone">国知音标声调显示</string>
+
+    <string name="setting_singlehan_card_title">单字界面卡片内容自定义</string>
+    <string name="setting_singlehan_card_cmn">显示普通话读音</string>
+    <string name="setting_singlehan_card_vas">显示异形体</string>
+    <string name="setting_singlehan_card_hakka_audio">显示客家语音</string>
+    <string name="setting_singlehan_card_sw">显示说文解字</string>
+    <string name="setting_singlehan_card_kx">显示康熙辞典</string>
+    <string name="setting_singlehan_card_hd">显示汉语大字典</string>
+    <string name="setting_singlehan_card_ltc_mc">显示广韵</string>
+
+    <string name="setting_others_font_type">简繁切换</string>
+    <string name="setting_others_title">其他</string>
+    <string name="feeback">反馈</string>
+    <string name="feedback_content">这是内容反馈</string>
+    <string name="frag_main_search_content">请输入汉字或客家话、普通话拼音</string>
+    <string name="frag_search_content">请输入字符搜索</string>
+    <string name="univerl_search_content">请输入字符</string>
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="setting_main_lang_hakka_gaufungpin">高峰客家话拼音方案</string>
+    <string name="setting_main_lang_hakka_moipin">梅县客家话拼音方案</string>
+    <string name="setting_main_lang_hakka_ipa">国际音标</string>
+    <string name="setting_main_lang_cmn_cmnpin">汉语拼音方案</string>
+    <string name="setting_main_lang_cmn_ipa">国际音标</string>
+    <string name="setting_others_font_gan">简体字(默认)</string>
+    <string name="setting_others_font_fan">繁体字</string>
+    <string name="setting_main_lang_tone">调值显示</string>
+    <string name="setting_main_lang_ipatone_number">一二三四调值显示</string>
+    <string name="setting_main_lang_ipatone_line">折线显示</string>
+    <string name="searchAct_text_content"><font color="#7285aa"><big>使用说明：</big></font>\n
+    在搜索框内输入要查询的汉字或读音。而后点击「查询」按钮，即可查看相关结果。\n\n
+    查询条件分为汉字、客家话、普通话；\n
+        <font color="#7285aa">1.当查询条件为「汉字」时，您直接输入要查询的汉字即可，支持繁体和简体输入。</font>\n\n
+        <font color="#7285aa">2.当查询条件为「客家话」时，您需要输入高峰客家话拼音，才能查询；不支持梅县客家话拼音方案和国际音标的输入；</font>\n\n
+        高峰客家话拼音输入举例：hax\n
+        分析：在高峰客家话方案中，，<font color="#7285aa">「x」表示第一声和入声第一声、「q」表示第二声和入声第二声、「h」表示第三声、「s」表示第四声，</font>表示声调的「xqhs」称为「声调符号」，且声调符号<font color="red">必须</font>加在拼音的最后一位。\n
+        根据前面的说明，我们可以知道「hax」这个拼音的x表示「ha」读音的声调为第一声；\n
+        <font color="#7285aa">注意，输入拼音时，必须输入完整的拼音，即一个拼音应该包含读音和读音声调两个部分，否则会查询错误。</font>\n我们再拿「hax」这个拼音来说明，「hax」拼音中的「ha」为读音(这里的读音均没有声调)，「x」表示这个读音的声调。\n
+    \n 第二个例子：hakx\n
+    「hakx」表示读音为hak、声调为x的音节；由于客方言的入声用「p」「t」「k」表示，又称做「入声韵尾」，这些韵尾位于拼音的倒数第二位，所以「hakx」拼音的倒数第二位「k」为入声韵尾；根据前面的介绍，我们可知「x」表示第一声或入声第一声，而由于「x」前面有入声韵尾，故「x」表示入声第一声；\n\n
+    第三例子：nghh\n
+    「nghh」，根据前面介绍可知拼音的最后一位「h」表示第三声，那么「ngh」怎么这么奇怪呢？这是因为在高峰客家话方案，独立音节(嗯、哼等语气词)一般用「ngh」、「nh」「mh」来写，「h」表示这个音节是独立音节(或叫做语气词音节)；在高峰客家话中，独立音节有「ngh」「hng」「mh」「nh」四个；\n
+        <font color="red">注意！这些独立音节也是要加声调的，不允许不加声调；</font>\n\n
+        <font color="#7285aa">3.当查询条件为「普通话」时，您需要输入普通话拼音进行查询；</font>\n
+        注意：普通话拼音，指的是「中华人民共和国标准汉语拼音方案」，不支持传统注音符号输入！且，在本App中规定，普通话拼音<font color="red">必须</font>带声调符号，即加在拼音的最后面；\n
+    普通话拼音声调符号用「xqhs」表示，「x」表示普通话的第一声，「q」表示普通话的第二声，「h]表示普通话的第三声，「s」表示普通话的第四声，轻声不用加声调符号。\n
+    举例：woh\n
+    我们来分析一下这个拼音：根据上面说明，可知道「h」表示普通话的第三声，所以「woh」表示普通话读音为「wo」、声调为第三声的普通话音节(用标准的汉语拼音拼写，就是wǒ);\n
+    再举一个例子：e\n
+    分析：由于这个拼音末尾都没有带「xqhs」，因此我们可以断定其声调为轻声；所以「e」表示读音为「e」、声调为轻声的普通话音节；\n\n\n
+        <font color="#7285aa">正则模式：在「客家话」、「普通话」查询条件下，支持使用JAVA正则表达式进行模糊查询；</font>\n
+        <font color="blue">查询模板：re`^内容+声调$</font>\n
+        <font color="red">注意！开头必须为「re`^」，末尾必须为「声调符号$」，结尾一定要包括声调符号和美元符号！</font>\n\n
+        <font color="#7285aa">符号说明：</font>\n
+        <font color="blue">.</font>\t\t表示任意字母(英文字母表中的任意一个)\n
+        <font color="blue">*</font>\t\t表示匹配零次或多次前面的字符，例如zo*，可以匹配zo和zoo等；\n
+        <font color="blue">?</font>\t\t表示匹配零次或一次前面的字符，例如d?oes，可以匹配oes和does\n
+        <font color="blue">{n}</font>\t\tn是非负整数，表示正好匹配n次前面的字符，例如o{2}，可以匹配foo，但与fooo不匹配，其与fo也不匹配\n
+        <font color="blue">{n,}</font>\t\tn是非负整数，表示至少匹配n次前面的字符，例如o{2,}可以可以匹配foo，也可以匹配fooo\n\n
+        <big>......欲了解更多关于JAVA正则表达式的话，请搜索「菜鸟教程\tJAVA正则表达式」！</big>\n\n</string>
+    <string name="searchAct_detail_btn">点击了解详情</string>
 </resources>
